@@ -1,0 +1,58 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Style the form container */
+form {
+    max-width: 600px;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+/* Style the text area */
+textarea {
+    width: 90%;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+/* Style the analyze button */
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the result paragraph */
+p {
+    margin: 10px 0;
+    font-weight: bold;
+}
